@@ -10,8 +10,10 @@ end
 
 
 def turn_page(page)
-puts "turn page"
+puts "Flipping the page...wow, you read fast!"
 @page +=1
 end
+
+
 @page
 end
