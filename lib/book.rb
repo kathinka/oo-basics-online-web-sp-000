@@ -20,9 +20,13 @@ attr_accessor(:brand, :color, :size, :material, :condition)
     @brand = brand
   end
 
+  def condition(condition)
+    @condition = "new"
+  end
+
   def cobble
 puts "Your shoe is as good as new!"
-@condition = new
+@condition = "new"
   end
 
 end
