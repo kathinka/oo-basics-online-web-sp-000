@@ -11,7 +11,7 @@ end
 
 def turn_page(page)
 puts "turn page"
-@page_count +=1
+@page +=1
 end
-
+@page
 end
