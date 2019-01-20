@@ -2,7 +2,9 @@
 
 class Book
   @@genres = []
-attr_accessor(:title, :author, :page_count)
+attr_accessor(:title, :author, :page_count, :genre)
+initialize(:title)
+
 
 def turn_page(page)
 puts "turn page"
