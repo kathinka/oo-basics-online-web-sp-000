@@ -9,9 +9,9 @@ def initialize(title)
 end
 
 
-def turn_page(page)
+def turn_page#(page)
 puts "Flipping the page...wow, you read fast!"
-@page +=1
+#@page +=1
 end
 
 
