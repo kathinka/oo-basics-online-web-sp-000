@@ -20,7 +20,7 @@ attr_accessor(:brand, :color, :size, :material, :condition)
     @brand = brand
   end
 
-  def condition(condition)
+  def condition=(condition)
     @condition = "new"
   end
 
